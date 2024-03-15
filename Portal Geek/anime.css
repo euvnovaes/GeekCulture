@@ -1,0 +1,245 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #c9c9c9;
+    padding: 20px 0;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation img {
+    max-height: 75px;
+}
+
+.home {
+    color: rgb(0, 175, 0);
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.home:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: green;
+    border: 20px solid green;
+    border-radius: 25px;
+}
+
+.anime {
+    color: rgb(251, 255, 0);
+    text-decoration: underline;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.anime:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.jogos {
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.jogos:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: blue;
+    border: 20px solid blue;
+    border-radius: 25px;
+}
+
+.cinema {
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+.cinema:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: red;
+    border: 20px solid red;
+    border-radius: 25px;
+}
+
+
+.pesq {
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+}
+
+.pesq:hover {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    navigation li {
+        margin-bottom: 10px;
+    }
+}
+
+.news-section {
+    margin: 20px;
+}
+
+.news-article {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.news-article h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.news-article p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.news-article a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
+}
+
+.news-content {
+    flex: 1;
+    color: black;
+}
+
+.news-image-left {
+    float: left;
+    margin-right: 20px;
+    width: 210px;
+}
+
+.news-image-right {
+    float: right;
+    margin-left: 20px;
+    width: 210px;
+}
+
+.news-anime {
+    background-color: yellow;
+}
+
+.news-jogos{
+    background-color: blue;
+}
+
+.news-cinema {
+    background-color: red;
+}
+
+.ult {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.subt {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto no footer */
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px; /* Espaçamento interno do footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Largura da imagem da logo */
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links ul li {
+    display: inline;
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+.links ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.redes-sociais ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes-sociais ul li {
+    display: inline;
+    margin-right: 10px; /* Espaçamento entre os ícones de redes sociais */
+}
+
+.redes-sociais ul li a {
+    color: #fff; /* Cor dos ícones de redes sociais */
+    font-size: 20px; /* Tamanho do ícone */
+    text-decoration: none; /* Remover sublinhado */
+}
